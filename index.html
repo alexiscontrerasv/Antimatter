@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="VoidOwl - Monitoreo inteligente para tu sitio web 24/7. Vigila el uptime, recibe alertas instantáneas y protege tu presencia online. Ideal para WordPress y PYMEs.">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="VoidOwl – Monitoreo inteligente para tu sitio web, 24/7">
+    <meta property="og:description" content="Vigilancia silenciosa. Protección total. Monitorea tu sitio web las 24 horas del día con VoidOwl.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://voidowl.com">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/VoidOwl-logo.png">
+    <link rel="apple-touch-icon" href="assets/img/VoidOwl-logo.png">
+    
+    <title>VoidOwl – Monitoreo inteligente para tu sitio web, 24/7</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Michroma&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <a href="#hero" class="navbar-logo-link">
+                    <img src="assets/img/VoidOwl-logo.png" alt="VoidOwl Logo" class="navbar-logo-image">
+                    <span class="navbar-logo-text">VoidOwl</span>
+                </a>
+            </div>
+            
+            <nav class="navbar-nav" id="navbarNav">
+                <a href="#hero" class="nav-link">Inicio</a>
+                <a href="#como-funciona" class="nav-link">Cómo funciona</a>
+                <a href="#caracteristicas" class="nav-link">Características</a>
+                <a href="#planes" class="nav-link">Planes</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+                <a href="#planes" class="btn btn-primary btn-sm">Comenzar</a>
+            </nav>
+            
+            <button class="navbar-toggle" id="navbarToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <!-- Efectos de fondo animados -->
+            <div class="hero-background">
+                <div class="gradient-orb orb-1" id="orb1"></div>
+                <div class="gradient-orb orb-2" id="orb2"></div>
+                <div class="gradient-orb orb-3" id="orb3"></div>
+                <div class="gradient-orb orb-4" id="orb4"></div>
+                <div class="gradient-orb orb-5" id="orb5"></div>
+                <div class="grid-pattern"></div>
+                <div class="accent-circles">
+                    <div class="accent-circle circle-1"></div>
+                    <div class="accent-circle circle-2"></div>
+                    <div class="accent-circle circle-3"></div>
+                </div>
+                <div class="mouse-gradient" id="mouseGradient"></div>
+                <div class="bubbles-container bubbles-dark" id="bubblesContainer"></div>
+            </div>
+            
+            <div class="hero-container">
+                <div class="hero-content">
+                    <!-- Logo con nombre -->
+                    <div class="hero-logo fade-up">
+                        <img src="assets/img/VoidOwl-logo.png" alt="VoidOwl Logo" class="logo-image">
+                        <span class="logo-text">VoidOwl</span>
+                    </div>
+                    
+                    <!-- Título principal -->
+                    <h1 class="hero-title fade-up">
+                        <span class="title-line">Vigilancia silenciosa.</span><br>
+                        <span class="title-line">Protección total.</span>
+                    </h1>
+                    
+                    <!-- Párrafo descriptivo -->
+                    <p class="hero-description fade-up">
+                        Monitoreo inteligente para tu sitio web, 24/7. Sin ruido, sin complicaciones.
+                    </p>
+                    
+                    <!-- Botones CTA -->
+                    <div class="hero-cta fade-up">
+                        <a href="#planes" class="btn btn-primary">Comenzar ahora</a>
+                        <a href="#como-funciona" class="btn btn-secondary">Saber más</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección: Cómo funciona -->
+        <section id="como-funciona" class="section section-light">
+            <div class="bubbles-container bubbles-light"></div>
+            <div class="container">
+                <h2 class="section-title">Cómo funciona VoidOwl</h2>
+                <p class="section-subtitle">Un sistema simple y poderoso en solo 4 pasos</p>
+                
+                <div class="steps-grid">
+                    <div class="step-card fade-up">
+                        <div class="step-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="step-title">1. Conecta tu sitio</h3>
+                        <p class="step-description">Agrega tu sitio web en minutos. Solo necesitas la URL y VoidOwl comenzará a monitorearlo automáticamente.</p>
+                    </div>
+                    
+                    <div class="step-card fade-up">
+                        <div class="step-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9 11L12 14L22 4" stroke="#00FFF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M21 12V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H16" stroke="#00FFF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="step-title">2. Analizamos tu salud digital</h3>
+                        <p class="step-description">Nuestro sistema analiza continuamente el uptime, velocidad, seguridad y estado general de tu sitio web.</p>
+                    </div>
+                    
+                    <div class="step-card fade-up">
+                        <div class="step-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18 8A6 6 0 0 0 6 8C6 11 3 13 3 16V18H21V16C21 13 18 11 18 8Z" stroke="#7C3AED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M13.73 21C13.5542 21.3031 13.3019 21.5547 12.9982 21.7295C12.6946 21.9044 12.3504 21.9965 12 21.9965C11.6496 21.9965 11.3054 21.9044 11.0018 21.7295C10.6982 21.5547 10.4458 21.3031 10.27 21" stroke="#7C3AED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="step-title">3. Te alertamos cuando algo falla</h3>
+                        <p class="step-description">Recibe notificaciones instantáneas por email, SMS o integraciones cuando detectamos problemas críticos.</p>
+                    </div>
+                    
+                    <div class="step-card fade-up">
+                        <div class="step-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="3" y="3" width="18" height="18" rx="2" stroke="#3B82F6" stroke-width="2"/>
+                                <path d="M3 9H21" stroke="#3B82F6" stroke-width="2"/>
+                                <path d="M9 21V9" stroke="#3B82F6" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="step-title">4. Controla todo desde tu panel</h3>
+                        <p class="step-description">Accede a tu dashboard personalizado con métricas en tiempo real, historial y configuraciones avanzadas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección: Características clave -->
+        <section id="caracteristicas" class="section section-dark">
+            <div class="bubbles-container bubbles-dark"></div>
+            <div class="container">
+                <h2 class="section-title">Características clave</h2>
+                <p class="section-subtitle">Todo lo que necesitas para mantener tu sitio web protegido</p>
+                
+                <div class="features-grid">
+                    <div class="feature-card fade-up">
+                        <div class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="10" stroke="#00FFF0" stroke-width="2"/>
+                                <path d="M12 6V12L16 14" stroke="#00FFF0" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Monitoreo de uptime 24/7</h3>
+                        <p class="feature-description">Vigilancia continua para garantizar que tu sitio esté siempre disponible. Monitoreamos cada minuto del día.</p>
+                    </div>
+                    
+                    <div class="feature-card fade-up">
+                        <div class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M2 17L12 22L22 17" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M2 12L12 17L22 12" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Alertas instantáneas</h3>
+                        <p class="feature-description">Notificaciones inmediatas por email, SMS o integraciones cuando detectamos problemas críticos en tu sitio.</p>
+                    </div>
+                    
+                    <div class="feature-card fade-up">
+                        <div class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21 16V8C20.9996 7.64928 20.9071 7.30481 20.7315 7.00116C20.556 6.69751 20.3037 6.44536 20 6.27L13 2.27C12.696 2.09446 12.3511 2.00205 12 2.00205C11.6489 2.00205 11.304 2.09446 11 2.27L4 6.27C3.69626 6.44536 3.44398 6.69751 3.26846 7.00116C3.09294 7.30481 3.00036 7.64928 3 8V16C3.00036 16.3507 3.09294 16.6952 3.26846 16.9988C3.44398 17.3025 3.69626 17.5546 4 17.73L11 21.73C11.304 21.9055 11.6489 21.9979 12 21.9979C12.3511 21.9979 12.696 21.9055 13 21.73L20 17.73C20.3037 17.5546 20.556 17.3025 20.7315 16.9988C20.9071 16.6952 20.9996 16.3507 21 16Z" stroke="#7C3AED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Estado WordPress</h3>
+                        <p class="feature-description">Monitoreo especializado para sitios WordPress, detectando actualizaciones, plugins y temas desactualizados.</p>
+                    </div>
+                    
+                    <div class="feature-card fade-up">
+                        <div class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3 3H21V21H3V3Z" stroke="#00FFF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9 9H15V15H9V9Z" stroke="#00FFF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Historial completo</h3>
+                        <p class="feature-description">Accede a un historial detallado de todos los eventos, incidentes y métricas de rendimiento de tu sitio.</p>
+                    </div>
+                    
+                    <div class="feature-card fade-up">
+                        <div class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 21V19C17 17.9391 16.5786 16.9217 15.8284 16.1716C15.0783 15.4214 14.0609 15 13 15H5C3.93913 15 2.92172 15.4214 2.17157 16.1716C1.42143 16.9217 1 17.9391 1 19V21" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9 11C11.2091 11 13 9.20914 13 9C13 6.79086 11.2091 5 9 5C6.79086 5 5 6.79086 5 9C5 9.20914 6.79086 11 9 11Z" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M23 21V19C22.9993 18.1137 22.7044 17.2528 22.1614 16.5523C21.6184 15.8519 20.8581 15.3516 20 15.13" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M16 3.13C16.8604 3.35031 17.623 3.85071 18.1676 4.55232C18.7122 5.25392 19.0078 6.11683 19.0078 7.005C19.0078 7.89318 18.7122 8.75608 18.1676 9.45769C17.623 10.1593 16.8604 10.6597 16 10.88" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Multi-sitio para agencias</h3>
+                        <p class="feature-description">Gestiona múltiples sitios web desde un solo panel. Perfecto para agencias y desarrolladores que manejan varios clientes.</p>
+                    </div>
+                    
+                    <div class="feature-card fade-up">
+                        <div class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#7C3AED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M14 2V8H20" stroke="#7C3AED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M16 13H8" stroke="#7C3AED" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M16 17H8" stroke="#7C3AED" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M10 9H9H8" stroke="#7C3AED" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Informes detallados</h3>
+                        <p class="feature-description">Genera informes completos de rendimiento, disponibilidad y salud de tu sitio web para compartir con tu equipo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección: Para quién es -->
+        <section id="para-quien" class="section section-light">
+            <div class="bubbles-container bubbles-light"></div>
+            <div class="container">
+                <h2 class="section-title">¿Para quién es VoidOwl?</h2>
+                <p class="section-subtitle">Una solución diseñada para diferentes necesidades</p>
+                
+                <div class="audience-grid">
+                    <div class="audience-card fade-up">
+                        <div class="audience-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M2 17L12 22L22 17" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M2 12L12 17L22 12" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="audience-title">PYMEs</h3>
+                        <p class="audience-description">Protege tu presencia online sin necesidad de conocimientos técnicos. VoidOwl te alerta cuando algo falla, permitiéndote actuar rápidamente y mantener tu negocio funcionando.</p>
+                        <ul class="audience-benefits">
+                            <li>Monitoreo automático 24/7</li>
+                            <li>Alertas claras y accionables</li>
+                            <li>Panel intuitivo y fácil de usar</li>
+                            <li>Ideal para sitios WordPress</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="audience-card fade-up">
+                        <div class="audience-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3 9L12 2L21 9V20C21 20.5304 20.7893 21.0391 20.4142 21.4142C20.0391 21.7893 19.5304 22 19 22H5C4.46957 22 3.96086 21.7893 3.58579 21.4142C3.21071 21.0391 3 20.5304 3 20V9Z" stroke="#00FFF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9 22V12H15V22" stroke="#00FFF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="audience-title">Tiendas online / e-commerce</h3>
+                        <p class="audience-description">Cada minuto de inactividad es dinero perdido. VoidOwl garantiza que tu tienda online esté siempre disponible para tus clientes, protegiendo tus ventas y tu reputación.</p>
+                        <ul class="audience-benefits">
+                            <li>Monitoreo crítico de uptime</li>
+                            <li>Detección rápida de caídas</li>
+                            <li>Alertas prioritarias</li>
+                            <li>Protección de ingresos</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="audience-card fade-up">
+                        <div class="audience-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 21V19C17 17.9391 16.5786 16.9217 15.8284 16.1716C15.0783 15.4214 14.0609 15 13 15H5C3.93913 15 2.92172 15.4214 2.17157 16.1716C1.42143 16.9217 1 17.9391 1 19V21" stroke="#7C3AED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9 11C11.2091 11 13 9.20914 13 9C13 6.79086 11.2091 5 9 5C6.79086 5 5 6.79086 5 9C5 9.20914 6.79086 11 9 11Z" stroke="#7C3AED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M23 21V19C22.9993 18.1137 22.7044 17.2528 22.1614 16.5523C21.6184 15.8519 20.8581 15.3516 20 15.13" stroke="#7C3AED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M16 3.13C16.8604 3.35031 17.623 3.85071 18.1676 4.55232C18.7122 5.25392 19.0078 6.11683 19.0078 7.005C19.0078 7.89318 18.7122 8.75608 18.1676 9.45769C17.623 10.1593 16.8604 10.6597 16 10.88" stroke="#7C3AED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="audience-title">Agencias y desarrolladores</h3>
+                        <p class="audience-description">Gestiona múltiples sitios web de tus clientes desde un solo panel. Ofrece monitoreo profesional como parte de tus servicios y mantén a todos tus clientes protegidos.</p>
+                        <ul class="audience-benefits">
+                            <li>Gestión multi-sitio centralizada</li>
+                            <li>Panel de agencia con todos los clientes</li>
+                            <li>Informes profesionales</li>
+                            <li>API para integraciones</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección: Planes -->
+        <section id="planes" class="section section-dark">
+            <div class="bubbles-container bubbles-dark"></div>
+            <div class="container">
+                <h2 class="section-title">Planes pensados para tu negocio</h2>
+                <p class="section-subtitle">Elige el plan que mejor se adapte a tus necesidades</p>
+                
+                <div class="plans-grid">
+                    <div class="plan-card fade-up">
+                        <div class="plan-header">
+                            <h3 class="plan-name">Void</h3>
+                            <p class="plan-tagline">Para empezar</p>
+                        </div>
+                        <div class="plan-content">
+                            <p class="plan-description">Ideal para sitios web personales y pequeños proyectos que necesitan monitoreo básico.</p>
+                            
+                            <ul class="plan-features">
+                                <li class="plan-feature">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20 6L9 17L4 12" stroke="#00FFF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>1 sitio web</span>
+                                </li>
+                                <li class="plan-feature">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20 6L9 17L4 12" stroke="#00FFF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>Monitoreo cada 5 minutos</span>
+                                </li>
+                                <li class="plan-feature">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20 6L9 17L4 12" stroke="#00FFF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>Alertas por email</span>
+                                </li>
+                                <li class="plan-feature">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20 6L9 17L4 12" stroke="#00FFF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>Historial de 30 días</span>
+                                </li>
+                                <li class="plan-feature">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20 6L9 17L4 12" stroke="#00FFF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>Dashboard básico</span>
+                                </li>
+                                <li class="plan-feature">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20 6L9 17L4 12" stroke="#00FFF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>Soporte por email</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="plan-footer">
+                            <a href="#" class="btn btn-secondary">Ver detalles</a>
+                        </div>
+                    </div>
+                    
+                    <div class="plan-card plan-featured fade-up">
+                        <div class="plan-badge">Popular</div>
+                        <div class="plan-header">
+                            <h3 class="plan-name">Sentinel</h3>
+                            <p class="plan-tagline">Para profesionales</p>
+                        </div>
+                        <div class="plan-content">
+                            <p class="plan-description">Perfecto para empresas y tiendas online que requieren monitoreo avanzado y alertas prioritarias.</p>
+                            
+                            <ul class="plan-features">
+                                <li class="plan-feature">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20 6L9 17L4 12" stroke="#00FFF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>5 sitios web</span>
+                                </li>
+                                <li class="plan-feature">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20 6L9 17L4 12" stroke="#00FFF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>Monitoreo cada 1 minuto</span>
+                                </li>
+                                <li class="plan-feature">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20 6L9 17L4 12" stroke="#00FFF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>Alertas por email y SMS</span>
+                                </li>
+                                <li class="plan-feature">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20 6L9 17L4 12" stroke="#00FFF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>Historial de 90 días</span>
+                                </li>
+                                <li class="plan-feature">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20 6L9 17L4 12" stroke="#00FFF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>Dashboard avanzado</span>
+                                </li>
+                                <li class="plan-feature">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20 6L9 17L4 12" stroke="#00FFF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>Monitoreo WordPress</span>
+                                </li>
+                                <li class="plan-feature">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20 6L9 17L4 12" stroke="#00FFF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>Informes detallados</span>
+                                </li>
+                                <li class="plan-feature">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20 6L9 17L4 12" stroke="#00FFF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>Soporte prioritario</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="plan-footer">
+                            <a href="#" class="btn btn-primary">Ver detalles</a>
+                        </div>
+                    </div>
+                    
+                    <div class="plan-card fade-up">
+                        <div class="plan-header">
+                            <h3 class="plan-name">OwlCore</h3>
+                            <p class="plan-tagline">Para agencias</p>
+                        </div>
+                        <div class="plan-content">
+                            <p class="plan-description">Solución completa para agencias y desarrolladores que gestionan múltiples sitios web de clientes.</p>
+                            
+                            <ul class="plan-features">
+                                <li class="plan-feature">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20 6L9 17L4 12" stroke="#00FFF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>Sitios web ilimitados</span>
+                                </li>
+                                <li class="plan-feature">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20 6L9 17L4 12" stroke="#00FFF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>Monitoreo cada 30 segundos</span>
+                                </li>
+                                <li class="plan-feature">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20 6L9 17L4 12" stroke="#00FFF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>Alertas multi-canal</span>
+                                </li>
+                                <li class="plan-feature">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20 6L9 17L4 12" stroke="#00FFF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>Historial completo (1 año)</span>
+                                </li>
+                                <li class="plan-feature">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20 6L9 17L4 12" stroke="#00FFF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>Dashboard multi-cliente</span>
+                                </li>
+                                <li class="plan-feature">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20 6L9 17L4 12" stroke="#00FFF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>Monitoreo WordPress avanzado</span>
+                                </li>
+                                <li class="plan-feature">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20 6L9 17L4 12" stroke="#00FFF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>Informes personalizados</span>
+                                </li>
+                                <li class="plan-feature">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20 6L9 17L4 12" stroke="#00FFF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>API para integraciones</span>
+                                </li>
+                                <li class="plan-feature">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20 6L9 17L4 12" stroke="#00FFF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>Soporte dedicado 24/7</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="plan-footer">
+                            <a href="#" class="btn btn-secondary">Ver detalles</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección: FAQ -->
+        <section id="faq" class="section section-light">
+            <div class="bubbles-container bubbles-light"></div>
+            <div class="container">
+                <h2 class="section-title">Preguntas frecuentes</h2>
+                <p class="section-subtitle">Todo lo que necesitas saber sobre VoidOwl</p>
+                
+                <div class="faq-list">
+                    <div class="faq-item fade-up">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>¿Necesito conocimientos técnicos para usar VoidOwl?</span>
+                            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>No, VoidOwl está diseñado para ser intuitivo y fácil de usar. Solo necesitas agregar la URL de tu sitio web y nuestro sistema comenzará a monitorearlo automáticamente. No se requieren conocimientos técnicos avanzados.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item fade-up">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>¿Puedo monitorear más de un sitio web?</span>
+                            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Sí, dependiendo de tu plan puedes monitorear múltiples sitios web desde un solo panel. El plan OwlCore está especialmente diseñado para agencias que necesitan gestionar varios sitios de clientes.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item fade-up">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>¿VoidOwl reemplaza mi servicio de hosting?</span>
+                            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>No, VoidOwl es un servicio de monitoreo que complementa tu hosting. Vigilamos el estado de tu sitio web y te alertamos cuando detectamos problemas, pero no reemplaza tu proveedor de hosting actual.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item fade-up">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>¿Qué tipo de alertas voy a recibir?</span>
+                            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Recibirás alertas cuando tu sitio esté caído, cuando detectemos problemas de seguridad, cuando haya actualizaciones disponibles para WordPress, y cuando el rendimiento se vea afectado. Puedes configurar los canales de notificación según tus preferencias (email, SMS, integraciones).</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item fade-up">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>¿VoidOwl funciona con sitios que no son WordPress?</span>
+                            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Sí, VoidOwl puede monitorear cualquier sitio web, independientemente de la tecnología que uses. Aunque tenemos características especiales para WordPress, nuestro sistema funciona con cualquier tipo de sitio web.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item fade-up">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>¿Cómo puedo comenzar a usar VoidOwl?</span>
+                            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Es muy simple. Solo necesitas crear una cuenta, elegir tu plan y agregar la URL de tu sitio web. En minutos, VoidOwl comenzará a monitorear tu sitio y recibirás tu primera alerta cuando todo esté configurado correctamente.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Final -->
+        <section class="section section-cta">
+            <div class="bubbles-container bubbles-dark"></div>
+            <div class="container">
+                <div class="cta-content fade-up">
+                    <h2 class="cta-title">¿Listo para proteger tu sitio web?</h2>
+                    <p class="cta-description">Únete a cientos de empresas que confían en VoidOwl para mantener sus sitios web siempre disponibles.</p>
+                    <a href="#planes" class="btn btn-primary btn-large">Comenzar ahora</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="footer-logo">VoidOwl</div>
+                <p class="footer-text">VoidOwl es parte del ecosistema de <a href="#" class="footer-link">Prende Tu Web</a>.</p>
+            </div>
+            
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4 class="footer-column-title">Navegación</h4>
+                    <a href="#hero" class="footer-link">Inicio</a>
+                    <a href="#planes" class="footer-link">Planes</a>
+                    <a href="#faq" class="footer-link">FAQ</a>
+                </div>
+                
+                <div class="footer-column">
+                    <h4 class="footer-column-title">Recursos</h4>
+                    <a href="blog.html" class="footer-link">Blog</a>
+                    <a href="#" class="footer-link">Documentación</a>
+                    <a href="contacto.html" class="footer-link">Soporte</a>
+                </div>
+                
+                <div class="footer-column">
+                    <h4 class="footer-column-title">Legal</h4>
+                    <a href="terminos.html" class="footer-link">Términos de servicio</a>
+                    <a href="privacidad.html" class="footer-link">Política de privacidad</a>
+                    <a href="contacto.html" class="footer-link">Contacto</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="footer-container">
+                <p class="footer-copyright">&copy; <span id="currentYear"></span> VoidOwl. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+
